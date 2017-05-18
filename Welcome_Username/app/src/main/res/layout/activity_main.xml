@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeeshan.welcome_username.MainActivity"
+    android:background="#a0d0f0">
+
+    <EditText
+        android:id="@+id/et_useridtext"
+        android:hint="USER NAME"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:layout_width="368dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:text="LOGIN"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/et_useridtext"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="156dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/et_passwordtext"
+        android:hint="PASSWORD"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:layout_width="368dp"
+        android:layout_height="52dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/et_useridtext"
+        android:layout_alignLeft="@+id/et_useridtext"
+        android:layout_alignStart="@+id/et_useridtext"
+        tools:layout_editor_absoluteY="79dp"
+        tools:layout_editor_absoluteX="8dp" />
+</android.support.constraint.ConstraintLayout>
